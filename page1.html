@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What do you want baby?</title>
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+  <div class="phone-background">
+    <div class="blur-square"></div>
+    <div class="button-container">
+        <h1 style="color: white; text-shadow: 100px;">Hello My Princess</h1>
+        <h3 style="color: white; text-shadow: 100px;">What do you want today?</h3>
+      <button class="modern-btn" onclick="callPhoneNumber('+959447456275')">Call You</button>
+      <button class="modern-btn" onclick="openMessengerChat()">Message You</button>
+      <button class="modern-btn" onclick="goToPage('loveletter.html')">Today's Love Letter</button>
+      <button class="modern-btn" onclick="goToPage('sure2.html')">I want to see your Gway Si</button>
+      <a href="#" class="quit-btn" onclick="quitApp()" style="color: red;">Quit</a>
+    </div>
+  </div>
+
+  <script>
+    function goToPage(page) {
+      window.location.href = page;
+    }
+
+    function callPhoneNumber() {
+      window.location.href = 'tel:' + 959447456275;
+    }
+
+    function openMessengerChat() {
+      // Add your code to open the messenger chat box here
+      // For example:
+      // window.open('messenger-link-here', '_blank');
+      window.open('https://www.facebook.com/100051336943070/', '_blank');
+    }
+
+    function quitApp() {
+      window.close(); // Close the window/tab
+    }
+  </script>
+</body>
+</html>

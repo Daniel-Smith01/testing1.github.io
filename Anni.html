@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Check</title>
+  <link rel="stylesheet" href="Anni.css">
+</head>
+<body>
+  <div class="password-check">
+    <img src="police dog.jpg" alt="Phone Image" class="phone-img">
+    <h2 style="color: white;">Ok. Enter Our Anniversary Date...</h2>
+    <input type="password" id="passwordInput" placeholder="Anni Date">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="passwordMessage"></p>
+    <div class="buttons">
+        <a href="fuck.html" class="btn">I don't know...</a>
+      </div>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('passwordInput').value;
+      const correctPassword = '2632018'; // Replace 'YourPasswordHere' with the actual password
+
+      if (password === correctPassword) {
+        window.location.href = "page1.html"; // Redirect to the secure page if password is correct
+      } else {
+        document.getElementById('passwordMessage').innerHTML = "Incorrect. You are fake.";
+      }
+    }
+  </script>
+</body>
+</html>

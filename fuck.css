@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Text color for better readability */
+  }
+  
+  .reddish-background {
+    background: linear-gradient(to bottom, #ff3333, #990000); /* Reddish gradient for the background */
+  }
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .intro-content {
+    text-align: center;
+  }
+  
+  .phone-img {
+    width: 70%; /* Adjust as needed */
+    max-width: 400px; /* Set a maximum width for the image */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000; /* Button background color */
+    border-radius: 5px;
+  }
