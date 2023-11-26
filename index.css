@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to bottom, #b1b1b1, #3f3f3f); /* Adjust gradient colors as needed */
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .intro-content {
+    text-align: center;
+  }
+  
+  .phone-img {
+    width: 70%; /* Adjust as needed */
+    max-width: 400px; /* Set a maximum width for the image */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333; /* Button background color */
+    border-radius: 5px;
+  }
